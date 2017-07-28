@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D88606F21F0CD876001E5DB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D88606F11F0CD876001E5DB6 /* main.m */; };
+		D88607891F0E18F9001E5DB6 /* YQBaseCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D88607841F0E18F9001E5DB6 /* YQBaseCommand.m */; };
+		D886078A1F0E18F9001E5DB6 /* YQBaseOptionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D88607861F0E18F9001E5DB6 /* YQBaseOptionManager.m */; };
+		D886078B1F0E18F9001E5DB6 /* YQBaseParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = D88607881F0E18F9001E5DB6 /* YQBaseParameter.m */; };
+		D88607901F0E1981001E5DB6 /* YQCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D886078F1F0E1981001E5DB6 /* YQCommand.m */; };
+		D88607931F0E1F46001E5DB6 /* YQInitCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D88607921F0E1F46001E5DB6 /* YQInitCommand.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D88606EC1F0CD876001E5DB6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D88606EE1F0CD876001E5DB6 /* yqbuild */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = yqbuild; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88606F11F0CD876001E5DB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D88606FC1F0CE10B001E5DB6 /* NSArray+YQCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+YQCategory.h"; sourceTree = "<group>"; };
+		D88606FD1F0CE10B001E5DB6 /* NSArray+YQCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+YQCategory.m"; sourceTree = "<group>"; };
+		D88606FE1F0CE10B001E5DB6 /* NSData+YQCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+YQCategory.h"; sourceTree = "<group>"; };
+		D88606FF1F0CE10B001E5DB6 /* NSData+YQCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+YQCategory.m"; sourceTree = "<group>"; };
+		D88607001F0CE10B001E5DB6 /* NSDictionary+YQCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+YQCategory.h"; sourceTree = "<group>"; };
+		D88607011F0CE10B001E5DB6 /* NSDictionary+YQCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+YQCategory.m"; sourceTree = "<group>"; };
+		D88607021F0CE10B001E5DB6 /* NSObject+YQCoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+YQCoder.h"; sourceTree = "<group>"; };
+		D88607031F0CE10B001E5DB6 /* NSObject+YQCoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YQCoder.m"; sourceTree = "<group>"; };
+		D88607041F0CE10B001E5DB6 /* NSObject+YQObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+YQObject.h"; sourceTree = "<group>"; };
+		D88607051F0CE10B001E5DB6 /* NSObject+YQObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YQObject.m"; sourceTree = "<group>"; };
+		D88607061F0CE10B001E5DB6 /* NSString+YQCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+YQCategory.h"; sourceTree = "<group>"; };
+		D88607071F0CE10B001E5DB6 /* NSString+YQCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+YQCategory.m"; sourceTree = "<group>"; };
+		D88607081F0CE10B001E5DB6 /* NSString+YQRegular.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+YQRegular.h"; sourceTree = "<group>"; };
+		D88607091F0CE10B001E5DB6 /* NSString+YQRegular.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+YQRegular.m"; sourceTree = "<group>"; };
+		D886070A1F0CE10B001E5DB6 /* NSString+YQURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+YQURL.h"; sourceTree = "<group>"; };
+		D886070B1F0CE10B001E5DB6 /* NSString+YQURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+YQURL.m"; sourceTree = "<group>"; };
+		D886070C1F0CE10B001E5DB6 /* YQCategoryForFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQCategoryForFoundation.h; sourceTree = "<group>"; };
+		D886070D1F0CE10B001E5DB6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D88607301F0CE10B001E5DB6 /* YQCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQCategory.h; sourceTree = "<group>"; };
+		D88607331F0CE10B001E5DB6 /* YQClassForFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQClassForFoundation.h; sourceTree = "<group>"; };
+		D88607351F0CE10B001E5DB6 /* YQValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQValue.h; sourceTree = "<group>"; };
+		D88607361F0CE10B001E5DB6 /* YQValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQValue.m; sourceTree = "<group>"; };
+		D886073F1F0CE10B001E5DB6 /* YQKeyboardServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQKeyboardServer.h; sourceTree = "<group>"; };
+		D88607401F0CE10B001E5DB6 /* YQKeyboardServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQKeyboardServer.m; sourceTree = "<group>"; };
+		D88607411F0CE10B001E5DB6 /* YQClassForOther.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQClassForOther.h; sourceTree = "<group>"; };
+		D88607421F0CE10B001E5DB6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D886075A1F0CE10B001E5DB6 /* YQClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQClass.h; sourceTree = "<group>"; };
+		D886075C1F0CE10B001E5DB6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D886075D1F0CE10B001E5DB6 /* YQConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQConst.h; sourceTree = "<group>"; };
+		D886075E1F0CE10B001E5DB6 /* YQCorlorConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQCorlorConst.h; sourceTree = "<group>"; };
+		D886075F1F0CE10B001E5DB6 /* YQFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQFunction.h; sourceTree = "<group>"; };
+		D88607601F0CE10B001E5DB6 /* YQFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQFunction.m; sourceTree = "<group>"; };
+		D88607611F0CE10B001E5DB6 /* YQGlobalValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQGlobalValue.h; sourceTree = "<group>"; };
+		D88607621F0CE10B001E5DB6 /* YQMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQMacro.h; sourceTree = "<group>"; };
+		D88607631F0CE10B001E5DB6 /* YQSimpleFunc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQSimpleFunc.h; sourceTree = "<group>"; };
+		D88607641F0CE10B001E5DB6 /* YQStruct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQStruct.h; sourceTree = "<group>"; };
+		D88607651F0CE10B001E5DB6 /* YQSynthesizeSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQSynthesizeSingleton.h; sourceTree = "<group>"; };
+		D886076A1F0CE1F1001E5DB6 /* BDPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDPrefix.pch; sourceTree = "<group>"; };
+		D88607831F0E18F9001E5DB6 /* YQBaseCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQBaseCommand.h; sourceTree = "<group>"; };
+		D88607841F0E18F9001E5DB6 /* YQBaseCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQBaseCommand.m; sourceTree = "<group>"; };
+		D88607851F0E18F9001E5DB6 /* YQBaseOptionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQBaseOptionManager.h; sourceTree = "<group>"; };
+		D88607861F0E18F9001E5DB6 /* YQBaseOptionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQBaseOptionManager.m; sourceTree = "<group>"; };
+		D88607871F0E18F9001E5DB6 /* YQBaseParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQBaseParameter.h; sourceTree = "<group>"; };
+		D88607881F0E18F9001E5DB6 /* YQBaseParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQBaseParameter.m; sourceTree = "<group>"; };
+		D886078E1F0E1981001E5DB6 /* YQCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQCommand.h; sourceTree = "<group>"; };
+		D886078F1F0E1981001E5DB6 /* YQCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQCommand.m; sourceTree = "<group>"; };
+		D88607911F0E1F46001E5DB6 /* YQInitCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQInitCommand.h; sourceTree = "<group>"; };
+		D88607921F0E1F46001E5DB6 /* YQInitCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQInitCommand.m; sourceTree = "<group>"; };
+		D88607941F0E2196001E5DB6 /* Global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D88606EB1F0CD876001E5DB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D88606E51F0CD876001E5DB6 = {
+			isa = PBXGroup;
+			children = (
+				D88606F01F0CD876001E5DB6 /* yqbuild */,
+				D88606EF1F0CD876001E5DB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D88606EF1F0CD876001E5DB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D88606EE1F0CD876001E5DB6 /* yqbuild */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D88606F01F0CD876001E5DB6 /* yqbuild */ = {
+			isa = PBXGroup;
+			children = (
+				D88606F11F0CD876001E5DB6 /* main.m */,
+				D88607941F0E2196001E5DB6 /* Global.h */,
+				D886078D1F0E1976001E5DB6 /* YQCommand */,
+				D88607821F0E18F9001E5DB6 /* YQOption */,
+				D88606F81F0CE10B001E5DB6 /* Libary */,
+				D88607691F0CE1A3001E5DB6 /* SupportFile */,
+			);
+			path = yqbuild;
+			sourceTree = "<group>";
+		};
+		D88606F81F0CE10B001E5DB6 /* Libary */ = {
+			isa = PBXGroup;
+			children = (
+				D88606F91F0CE10B001E5DB6 /* YQKit */,
+			);
+			path = Libary;
+			sourceTree = "<group>";
+		};
+		D88606F91F0CE10B001E5DB6 /* YQKit */ = {
+			isa = PBXGroup;
+			children = (
+				D88606FA1F0CE10B001E5DB6 /* Category */,
+				D88607311F0CE10B001E5DB6 /* Class */,
+				D886075B1F0CE10B001E5DB6 /* GlobalValue */,
+			);
+			path = YQKit;
+			sourceTree = "<group>";
+		};
+		D88606FA1F0CE10B001E5DB6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D88606FB1F0CE10B001E5DB6 /* Foundation */,
+				D886070D1F0CE10B001E5DB6 /* README.md */,
+				D88607301F0CE10B001E5DB6 /* YQCategory.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D88606FB1F0CE10B001E5DB6 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				D88606FC1F0CE10B001E5DB6 /* NSArray+YQCategory.h */,
+				D88606FD1F0CE10B001E5DB6 /* NSArray+YQCategory.m */,
+				D88606FE1F0CE10B001E5DB6 /* NSData+YQCategory.h */,
+				D88606FF1F0CE10B001E5DB6 /* NSData+YQCategory.m */,
+				D88607001F0CE10B001E5DB6 /* NSDictionary+YQCategory.h */,
+				D88607011F0CE10B001E5DB6 /* NSDictionary+YQCategory.m */,
+				D88607021F0CE10B001E5DB6 /* NSObject+YQCoder.h */,
+				D88607031F0CE10B001E5DB6 /* NSObject+YQCoder.m */,
+				D88607041F0CE10B001E5DB6 /* NSObject+YQObject.h */,
+				D88607051F0CE10B001E5DB6 /* NSObject+YQObject.m */,
+				D88607061F0CE10B001E5DB6 /* NSString+YQCategory.h */,
+				D88607071F0CE10B001E5DB6 /* NSString+YQCategory.m */,
+				D88607081F0CE10B001E5DB6 /* NSString+YQRegular.h */,
+				D88607091F0CE10B001E5DB6 /* NSString+YQRegular.m */,
+				D886070A1F0CE10B001E5DB6 /* NSString+YQURL.h */,
+				D886070B1F0CE10B001E5DB6 /* NSString+YQURL.m */,
+				D886070C1F0CE10B001E5DB6 /* YQCategoryForFoundation.h */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		D88607311F0CE10B001E5DB6 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				D88607321F0CE10B001E5DB6 /* Foundation */,
+				D88607371F0CE10B001E5DB6 /* Other */,
+				D88607421F0CE10B001E5DB6 /* README.md */,
+				D886075A1F0CE10B001E5DB6 /* YQClass.h */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		D88607321F0CE10B001E5DB6 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				D88607331F0CE10B001E5DB6 /* YQClassForFoundation.h */,
+				D88607341F0CE10B001E5DB6 /* YQValue */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		D88607341F0CE10B001E5DB6 /* YQValue */ = {
+			isa = PBXGroup;
+			children = (
+				D88607351F0CE10B001E5DB6 /* YQValue.h */,
+				D88607361F0CE10B001E5DB6 /* YQValue.m */,
+			);
+			path = YQValue;
+			sourceTree = "<group>";
+		};
+		D88607371F0CE10B001E5DB6 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D886073E1F0CE10B001E5DB6 /* KeyboardServer */,
+				D88607411F0CE10B001E5DB6 /* YQClassForOther.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		D886073E1F0CE10B001E5DB6 /* KeyboardServer */ = {
+			isa = PBXGroup;
+			children = (
+				D886073F1F0CE10B001E5DB6 /* YQKeyboardServer.h */,
+				D88607401F0CE10B001E5DB6 /* YQKeyboardServer.m */,
+			);
+			path = KeyboardServer;
+			sourceTree = "<group>";
+		};
+		D886075B1F0CE10B001E5DB6 /* GlobalValue */ = {
+			isa = PBXGroup;
+			children = (
+				D886075C1F0CE10B001E5DB6 /* README.md */,
+				D886075D1F0CE10B001E5DB6 /* YQConst.h */,
+				D886075E1F0CE10B001E5DB6 /* YQCorlorConst.h */,
+				D886075F1F0CE10B001E5DB6 /* YQFunction.h */,
+				D88607601F0CE10B001E5DB6 /* YQFunction.m */,
+				D88607611F0CE10B001E5DB6 /* YQGlobalValue.h */,
+				D88607621F0CE10B001E5DB6 /* YQMacro.h */,
+				D88607631F0CE10B001E5DB6 /* YQSimpleFunc.h */,
+				D88607641F0CE10B001E5DB6 /* YQStruct.h */,
+				D88607651F0CE10B001E5DB6 /* YQSynthesizeSingleton.h */,
+			);
+			path = GlobalValue;
+			sourceTree = "<group>";
+		};
+		D88607691F0CE1A3001E5DB6 /* SupportFile */ = {
+			isa = PBXGroup;
+			children = (
+				D886076A1F0CE1F1001E5DB6 /* BDPrefix.pch */,
+			);
+			path = SupportFile;
+			sourceTree = "<group>";
+		};
+		D88607821F0E18F9001E5DB6 /* YQOption */ = {
+			isa = PBXGroup;
+			children = (
+				D88607831F0E18F9001E5DB6 /* YQBaseCommand.h */,
+				D88607841F0E18F9001E5DB6 /* YQBaseCommand.m */,
+				D88607851F0E18F9001E5DB6 /* YQBaseOptionManager.h */,
+				D88607861F0E18F9001E5DB6 /* YQBaseOptionManager.m */,
+				D88607871F0E18F9001E5DB6 /* YQBaseParameter.h */,
+				D88607881F0E18F9001E5DB6 /* YQBaseParameter.m */,
+			);
+			path = YQOption;
+			sourceTree = "<group>";
+		};
+		D886078D1F0E1976001E5DB6 /* YQCommand */ = {
+			isa = PBXGroup;
+			children = (
+				D886078E1F0E1981001E5DB6 /* YQCommand.h */,
+				D886078F1F0E1981001E5DB6 /* YQCommand.m */,
+				D88607911F0E1F46001E5DB6 /* YQInitCommand.h */,
+				D88607921F0E1F46001E5DB6 /* YQInitCommand.m */,
+			);
+			path = YQCommand;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D88606ED1F0CD876001E5DB6 /* yqbuild */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D88606F51F0CD876001E5DB6 /* Build configuration list for PBXNativeTarget "yqbuild" */;
+			buildPhases = (
+				D88606EA1F0CD876001E5DB6 /* Sources */,
+				D88606EB1F0CD876001E5DB6 /* Frameworks */,
+				D88606EC1F0CD876001E5DB6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yqbuild;
+			productName = yqbuild;
+			productReference = D88606EE1F0CD876001E5DB6 /* yqbuild */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D88606E61F0CD876001E5DB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yiquan;
+				TargetAttributes = {
+					D88606ED1F0CD876001E5DB6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D88606E91F0CD876001E5DB6 /* Build configuration list for PBXProject "yqbuild" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D88606E51F0CD876001E5DB6;
+			productRefGroup = D88606EF1F0CD876001E5DB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D88606ED1F0CD876001E5DB6 /* yqbuild */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D88606EA1F0CD876001E5DB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88607901F0E1981001E5DB6 /* YQCommand.m in Sources */,
+				D88607891F0E18F9001E5DB6 /* YQBaseCommand.m in Sources */,
+				D88606F21F0CD876001E5DB6 /* main.m in Sources */,
+				D88607931F0E1F46001E5DB6 /* YQInitCommand.m in Sources */,
+				D886078B1F0E18F9001E5DB6 /* YQBaseParameter.m in Sources */,
+				D886078A1F0E18F9001E5DB6 /* YQBaseOptionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D88606F31F0CD876001E5DB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D88606F41F0CD876001E5DB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D88606F61F0CD876001E5DB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = yqbuild/SupportFile/BDPrefix.pch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D88606F71F0CD876001E5DB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = yqbuild/SupportFile/BDPrefix.pch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D88606E91F0CD876001E5DB6 /* Build configuration list for PBXProject "yqbuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88606F31F0CD876001E5DB6 /* Debug */,
+				D88606F41F0CD876001E5DB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D88606F51F0CD876001E5DB6 /* Build configuration list for PBXNativeTarget "yqbuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88606F61F0CD876001E5DB6 /* Debug */,
+				D88606F71F0CD876001E5DB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D88606E61F0CD876001E5DB6 /* Project object */;
+}

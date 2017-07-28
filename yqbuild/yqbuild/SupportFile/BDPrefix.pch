@@ -1,0 +1,17 @@
+//
+//  BDPrefix.pch
+//  yqbuild
+//
+//  Created by maygolf on 2017/7/5.
+//  Copyright © 2017年 yiquan. All rights reserved.
+//
+
+#ifndef BDPrefix_pch
+#define BDPrefix_pch
+
+#import "Global.h"
+#import "YQGlobalValue.h"
+#import "YQClass.h"
+#import "YQCategory.h"
+
+#endif /* BDPrefix_pch */

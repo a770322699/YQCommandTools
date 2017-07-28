@@ -1,0 +1,36 @@
+#!/bin/bash
+
+
+
+prefix=$2
+command=$1
+
+command_addprefix="addprefix"
+
+addprefix(){
+	files=`ls ./`
+	for file in $files
+	do
+		path=./$file
+		echo $path
+		if [ -f $path ]
+		then
+			
+			newpath=./$1_$file
+			mv $path $newpath
+		fi
+	done
+}
+
+#for file in ./*
+#do
+#	if [ -f $file ]
+#	then
+#		echo $file
+#	fi
+#done
+
+if [ $command == $command_addprefix ]
+then
+	addprefix $prefix
+fi
